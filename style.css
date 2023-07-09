@@ -5,10 +5,13 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #F4EEE0;
+  
 }
 
 html {
@@ -52,14 +55,16 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: #0C134F;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #3F3B6C;
 }
 
-.logo {
-  font-size: 2rem;
+.logo img{
+  height: 2rem;
+  width: 8rem;
+  
 }
 
 .logo:hover {
@@ -165,16 +170,21 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 8rem;
   height: 80vh;
+  
+  
 }
 
 .section__pic-container {
   display: flex;
-  height: 400px;
+  height: 100px;
   width: 400px;
-  margin: auto 0;
+  margin: auto;
   
+}
+img{
+  border-radius: 2rem;
 }
 
 .section__text {
@@ -212,6 +222,10 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+
+.icon:hover{
+  color: #3F3B6C;
 }
 
 /* BUTTONS */
@@ -313,6 +327,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  border-radius: 2rem;
 }
 
 /* EXPERIENCE SECTION */
