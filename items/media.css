@@ -1,0 +1,116 @@
+/* @media (min-width: 1024px) { 
+    #main{
+        padding-top: 2vh;
+    }
+    #name h1{
+        font-size: 40px;
+    }
+    #name p{
+        width: 80%;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .type-2{
+        font-size: 40px;
+        margin-left: 20vh;
+    }
+    .link-2 a{
+        margin-left: 20vh;
+    }
+    .foot{
+        padding-left: 5%;
+        margin-top: -10vh;
+    }
+ } */
+ @media (min-width: 768px){
+    
+    #main{
+        padding-top: 3vh;
+        /* flex-direction: column; */
+        
+    }
+    #name h1{
+        font-size: 40px;
+    }
+    #name p{
+        width: 80%;
+        margin-top: 0;
+        font-size: 20px;
+    }
+    #name .btn-rad{
+        margin-top: 4vh;
+    }
+    .links a{
+        font-size: 15px;
+    }
+    .type-2{
+        font-size: 40px;
+        margin-left: 20vh;
+    }
+    .link-2 a{
+        margin-left: 20vh;
+        font-size: 15px;
+    }
+    .foot{
+        padding-left: 5%;
+        margin-top: -5vh;
+    }
+ }
+ @media (max-width: 680px) { 
+    #main{
+        padding-top: 3vh;
+        flex-direction: column;
+    }
+    #name h1{
+        font-size: 30px;
+        line-height: 5vh;
+        
+    }
+    #name h3, h1, p{
+        margin-left: 4vh;
+        width: 100%;
+        
+    }
+    #name p{
+        width: 100%;
+        font-size: 15px;
+        margin-top: 0;
+    }
+    #name .btn-rad{
+        margin-left: 4vh;
+        margin-top: 1vh;
+    }
+    .links {
+        margin-left: 4vh;
+        margin-top: 1vh;
+        display: flex;
+        width: 100%;
+    }
+    .links a{
+        font-size: 15px; 
+    }
+    .type-2{
+        font-size: 30px;
+        margin-left: 5vh;
+    }
+    .link-2{
+        margin-top: 1vh;
+        line-height: 3vh;
+        margin-left: 4vh;
+        width: 100%;
+    }
+    .foot{
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: -20vh;
+        width: 90%;
+    }
+ }
+ @media (max-width: 320px){
+    .foot{
+        margin-top: -10vh;
+    }
+    .link-2 a{
+        font-size: 10px;
+    }
+ }

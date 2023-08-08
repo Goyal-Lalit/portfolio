@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+    background-color: #111320;
+}
+#main{
+    display: flex;
+    background-image:linear-gradient( 
+        rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)), 
+        url(pexels-neo-2653362.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    height: 100vh;
+    position: relative;
+}
+#name{
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+#name h3, h1, p{
+    margin-left: 20vh;
+}
+#name h1{
+    font-size: 60px;
+    line-height: 10vh; 
+    text-transform: uppercase;
+}
+.typing{
+    font-size: 60px;
+    line-height: 10vh; 
+    text-transform: uppercase;
+    position: relative;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    background-image:linear-gradient(#fff, #fff);
+    background-repeat: no-repeat; 
+    -webkit-background-clip: text;
+    background-position: -450px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0px 0;
+    }
+}
+.typing-2{
+    font-size: 60px;
+    line-height: 10vh; 
+    text-transform: uppercase;
+    position: relative;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    background-image:linear-gradient(#fff, #fff);
+    background-repeat: no-repeat; 
+    -webkit-background-clip: text;
+    background-position: -770px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0px 0;
+    }
+}
+
+#name p{
+    margin-top: 2vh;
+    width: 35vw;
+    font-size: 20px;
+    line-height: 4vh;
+}
+#name .btn-rad{
+    margin-left: 20vh;
+    margin-top: 5vh;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 1vh 2vh 1vh 2vh;
+    border: 2px solid white;
+}
+#name .btn-rad:hover{
+    background-color: white;
+    color: black;
+}
+.links{
+    margin-top: 3vh;
+    margin-left: 20vh;
+    
+}
+.links a{
+    margin-right: 3vh ;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.links a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+.links a:hover::after{
+    transform: scale(1);
+}
+
+#project {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.type-2{
+    margin-left: 0;
+    text-align: start;
+    font-size: 60px;
+    line-height: 10vh; 
+    text-transform: uppercase;
+    position: relative;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    background-image:linear-gradient(#fff, #fff);
+    background-repeat: no-repeat; 
+    -webkit-background-clip: text;
+    background-position: -770px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor {
+    100%{
+     background-position: 0px 0;
+    }
+}
+.link-2{
+    /* border-left: 2px solid white; */
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: start;
+    line-height: 5vh;
+}
+.link-2 a{
+    margin-right: 3vh ;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.link-2 a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 30%;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+.link-2 a:hover::after{
+    transform: scale(1);
+}
+
+.foot {
+    padding-right: 3vh;
+    color: #fff;
+    z-index: 5;
+    position: absolute;
+    margin-top: -5vh;
+    padding-left: 55%;
+}
+    
+.foot p{
+    width: 20vw;
+}
+
+
