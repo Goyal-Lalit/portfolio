@@ -62,10 +62,8 @@
         flex-direction: column;
     }
     #name h1{
-    padding-top: 2vh;
-    width: 140%;
-    font-size: 40px;
-    line-height: 6vh;
+        font-size: 30px;
+        line-height: 5vh;
         
     }
     #name h3, h1, p{
@@ -74,9 +72,9 @@
         
     }
     #name p{
-        width: 150%;
+        width: 100%;
         font-size: 15px;
-        margin-top: 3vh;
+        margin-top: 0;
     }
     #name .btn-rad{
         margin-left: 4vh;
@@ -108,11 +106,18 @@
         width: 90%;
     }
  }
- @media (max-width: 320px){
+ @media (max-width: 360px){
     .foot{
         margin-top: -10vh;
     }
     .link-2 a{
+        font-size: 10px;
+    }
+ }
+ @media (max-width: 280px){
+    #name p{
+        width: 130%;
         font-size: 15px;
+        margin-top: 0;
     }
  }
