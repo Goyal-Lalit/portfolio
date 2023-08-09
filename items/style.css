@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@ body{
     height: 100vh;
     position: relative;
 }
+
 #name{
     
     display: flex;
@@ -32,11 +35,13 @@ body{
 }
 #name h3, h1, p{
     margin-left: 20vh;
+    font-family: 'REM', sans-serif;
 }
 #name h1{
     font-size: 60px;
     line-height: 10vh; 
     text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
 }
 .typing{
     font-size: 60px;
@@ -76,6 +81,7 @@ body{
 }
 
 #name p{
+    font-family: 'Dancing Script', cursive;
     margin-top: 2vh;
     width: 35vw;
     font-size: 20px;
