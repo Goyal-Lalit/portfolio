@@ -197,7 +197,7 @@ a {
     border-bottom: 2px double #ffb17a;
 }
 footer {
-    padding: 40px 0 60ox 0;
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
