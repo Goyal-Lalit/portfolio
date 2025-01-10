@@ -21,6 +21,7 @@ This portfolio website is designed to provide visitors with a glimpse into my pr
 - HTML
 - CSS
 - JavaScript
+- Gsap
 
 ## Demo-Link
 https://goyal-lalit.github.io/portfolio/
