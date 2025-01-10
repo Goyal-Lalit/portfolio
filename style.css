@@ -208,7 +208,7 @@ footer .socials {
     display: flex;
     align-items: center;
     gap: 28px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 .socials a{
     color: #ffb17a ;
