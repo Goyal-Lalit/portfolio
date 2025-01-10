@@ -143,6 +143,7 @@ a {
 }
 
 .featured {
+    min-height: 100vh;
     padding: 40px 290px 0;
 }
 
