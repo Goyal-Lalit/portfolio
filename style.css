@@ -144,7 +144,7 @@ a {
 
 .featured {
     min-height: 100vh;
-    padding: 40px 290px 0;
+    padding: 40px 290px;
 }
 
 .featured .item {
@@ -228,6 +228,11 @@ footer p {
     font-size: 14px;
 }
 
+.fake1{
+    height: 5vh;
+    width: 100%;
+}
+
 
 @media screen and (max-width: 1400px) {
 
@@ -241,7 +246,7 @@ footer p {
 
     .featured,
     .separator {
-        padding: 40px 60px 0;
+        padding: 40px 60px;
     }
 
 
@@ -264,7 +269,7 @@ footer p {
 
     .featured,
     .separator {
-        padding: 40px 40px 0;
+        padding: 40px 40px;
     }
 
     .featured .details p,
@@ -309,7 +314,7 @@ footer p {
 
     .featured,
     .separator {
-        padding: 40px 20px 0;
+        padding: 40px 20px ;
     }
 
     .featured .item {
@@ -342,6 +347,10 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+    .fake1{
+        height: 10vh;
+        width: 100%;
+    }
     .loader h3{
         font-family: rb;
         font-size: 6vw;
