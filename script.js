@@ -153,12 +153,6 @@ tl.from(".contact-left ul li", {
     duration: 0.5,
 }, "<+0.2")
 
-tl.from(".contact-left .social-icons a", {
-    scale: 0,
-    stagger: 0.2,
-    duration: 0.3
-}, "<+0.2")
-
 tl.from(".contact-right form input, .contact-right form textarea, .contact-right form button, .contact-right .download-cv", {
     y: 50,
     stagger: 0.2,
