@@ -21,7 +21,7 @@
 }
 body{
     /* background-color: #000957; */
-    background-color: #000;
+    background-color: #0f111a;
     color: #fff;
 }
 
@@ -71,11 +71,15 @@ a {
     flex-direction: column;
 }
 .main .info h1 {
-    font-size: 6vw;
+    font-size: 4vw;
     margin-bottom: 40px;
     position: relative;
     font-family: rb;
     font-weight: 800;
+}
+span {
+    color: #ffb17a;
+    font-family: nb;
 }
 .main .info h1:nth-child(2){
     font-size: 4vw;
@@ -100,6 +104,7 @@ a {
     font-family: rb;
     font-size: 1.5vw;
     color: #ffb17a;
+  
 }
 
 .info .links a:hover{
@@ -132,7 +137,7 @@ a {
 }
 
 .separator h4 {
-    font-size: 40px;
+    font-size: 35px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(255, 177, 122, 1) 70%);
     background-clip: text;
     color: transparent;
@@ -145,6 +150,7 @@ a {
 .featured {
     min-height: 100vh;
     padding: 40px 290px;
+    overflow: hidden;
 }
 
 .featured .item {
@@ -153,6 +159,7 @@ a {
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 2px solid #ffb17a;
+    overflow: hidden;
 }
 .featured .item a{
     color: #ffb17a;
@@ -165,7 +172,7 @@ a {
 }
 
 .featured .item h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 16px;
 }
 
@@ -173,7 +180,7 @@ a {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .featured h4 {
@@ -197,6 +204,109 @@ a {
     color: #fff;
     border-bottom: 2px double #ffb17a;
 }
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0f111a;
+    color: #fff;
+    padding: 50px 10%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contact-left, .contact-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-left h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-left p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.contact-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-left ul li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+.contact-left ul i {
+    margin-right: 10px;
+    color: #ffb17a;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffb17a;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right input,
+.contact-right textarea {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1e2233;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-right textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.contact-right button {
+    background-color: #ffb17a;
+    color: #fff;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-right button:hover {
+    background-color: #ffb17a;
+}
+
+.download-cv {
+    margin-top: 10px;
+    display: inline-block;
+    color: #ffb17a;
+    font-weight: bold;
+    text-decoration: none;
+}
+.download-cv i {
+    margin-left: 8px;
+}
+
+
+
 footer {
     padding: 40px 0;
     display: flex;
@@ -208,7 +318,7 @@ footer .socials {
     display: flex;
     align-items: center;
     gap: 28px;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 .socials a{
     color: #ffb17a ;
@@ -227,12 +337,14 @@ footer .socials i:hover {
 footer p {
     font-size: 14px;
 }
-
 .fake1{
     height: 5vh;
     width: 100%;
 }
-
+.fake{
+    height: 6vh;
+    width: 100%;
+}
 
 @media screen and (max-width: 1400px) {
 
@@ -269,7 +381,7 @@ footer p {
 
     .featured,
     .separator {
-        padding: 40px 40px;
+        padding: 40px 40px ;
     }
 
     .featured .details p,
@@ -314,7 +426,7 @@ footer p {
 
     .featured,
     .separator {
-        padding: 40px 20px ;
+        padding: 40px 20px;
     }
 
     .featured .item {
@@ -388,6 +500,7 @@ footer p {
         font-family: rb;
         font-size: 4vw;
         color: #ffb17a;
+        margin: 0 10px;
     }
     .separator {
         margin-top: 17vh;
@@ -395,5 +508,17 @@ footer p {
     #more{
         margin-left: 40%; 
         font-size: 6vw;
+    }
+    .fake{
+        display: none;
+    
+    }
+    .contact {
+        flex-direction: column;
+        padding: 40px 5%;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%;
     }
 }
